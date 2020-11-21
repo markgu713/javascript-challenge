@@ -37,7 +37,15 @@
                     <ul class="list-group" id="filters">
                       <li class="filter list-group-item">
                         <label for="date">Enter a Date</label>
-                        <input class="form-control" id="datetime" type="text" placeholder="1/11/2011">
+                        <select id="datetime" type="text" placeholder="1/11/2010" onfocus="addDropdownOption('datetime')"></select>
+                        <label for="city">Enter a City</label>
+                        <select id="city" type="text" placeholder="cleveland" onfocus="addDropdownOption('city')"></select>
+                        <label for="state">Enter a State</label>
+                        <select id="state" type="text" placeholder="oh" onfocus="addDropdownOption('state')"></select>
+                        <label for="country">Enter a Country</label>
+                        <select id="country" type="text" placeholder="us" onfocus="addDropdownOption('country')"></select>
+                        <label for="shape">Enter a Shape</label>
+                        <select id="shape" type="text" placeholder="oval" onfocus="addDropdownOption('shape')"></select>
                       </li>
                     </ul>
                   </div>
