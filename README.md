@@ -4,7 +4,8 @@ Level 1: Automatic Table and Date Search (Required)
 - Use a date form in your HTML document and write JavaScript code that will listen for events and search through the date/time column to find rows that match user input.
 
 Level 2: Multiple Search Categories (Optional)
-  Using multiple input tags and/or select dropdowns, write JavaScript code so the user can to set multiple filters and search for UFO sightings using the following criteria based on the table columns:
+
+Using multiple input tags and/or select dropdowns, write JavaScript code so the user can to set multiple filters and search for UFO sightings using the following criteria based on the table columns:
 - date/time
 - city
 - state
